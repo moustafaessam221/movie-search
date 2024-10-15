@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="logo"><img src="images/logo.png" alt=""></div>
+      <div class="search">
+        <input type="text" id="input" placeholder="Movie Title" />
+        <button id="search" onclick="searchAll()">Search</button>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#" onclick="favourite()">Favourites</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- banner section -->
+    <div class="hero">
+      <img src="images/black-panther-4k-movie-poster-vi.jpg" alt="" />
+      <div class="block">
+        <h1>Search for any movie <br>for free</h1>
+      </div>
+    </div>
+
+    <!-- movie card -->
+    <div class="container">
+        <h1 id="TITLE"></h1>
+      <div id="results">
+        <!-- beginning of cards -->
+
+        <!-- end of cards -->
+      </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+      <div class="col-footer">
+        <div class="logo"><img src="images/logo.png" alt="" /></div>
+        <p>Copyright &copy; 2024</p>
+      </div>
+      <div class="col-footer">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Favourites</a></li>
+        </ul>
+      </div>
+      <div class="col-footer">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+        </ul>
+      </div>
+    </footer>
+
+
+
+    <!-- script -->
+    <script src="https://kit.fontawesome.com/b3fac1fc08.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
